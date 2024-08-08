@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+US+Modern:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+
+
+}
+.contenor{
+    width: 500px;
+    height: 300px;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: white;
+    color: #000;
+    -webkit-box-shadow: 1px 2px 60px 10px rgba(255,245,255,1);
+    -moz-box-shadow: 1px 2px 60px 10px rgba(255,245,255,1);
+    box-shadow: 1px 2px 60px 10px rgba(255,245,255,1);
+    border-radius: 20px;
+}
+.text{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 30px;
+    font-weight: 900;
+}
+.contenor h2{
+    font-size: 15px;
+}
+#inp{
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.agebtn{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 255, 0.781);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 1px 2px 11px 5px rgba(15, 10, 15, 0.603);
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+
+}
+.useroutput{
+    margin-top: 10px;
+    font-weight: 900;
+}
